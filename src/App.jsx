@@ -1,7 +1,7 @@
 import TransactionList from "./components/TransactionList"
 
 import NewTxnForm from "./components/NewTxnForm"
-import IncExpContainer from "./components/incExpContainer"
+import IncExpContainer from "./components/IncExpContainer"
 import { useState } from "react"
 const App = ()=>{
   const [transactions, setTransactions] = useState(
